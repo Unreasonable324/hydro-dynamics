@@ -199,7 +199,7 @@ a {
 
 .btnCall {
   position: relative;
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   width: 392px;
   height: 78px;
   background: linear-gradient(180deg, #69B7FF 0%, #0C7FEA 100%);
@@ -531,11 +531,14 @@ a {
   /* box-sizing: content-box; */
   font-family: 'Muller';
   font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 16.7885px;
-  line-height: 50px;
-  text-align: center;
-  margin: -25px auto 0 auto;
+  /* line-height: 50px; */
+  /* text-align: center; */
+  margin: -5px auto 0 auto;
   color: #FFFFFF;
   background: linear-gradient(180deg, #69B7FF 0%, #0C7FEA 100%);
   border-radius: 27.2814px 0px 27.2814px 27.2814px;
@@ -554,7 +557,7 @@ a {
 
   background: linear-gradient(181.58deg, #69B7FF 1.35%, #0B65B7 107.99%);
   box-shadow: 5px 5px 30px rgba(57, 154, 244, 0.8);
-  border-radius: 32.5px 0px 32.5px 32.5px;
+  /* border-radius: 32.5px 0px 32.5px 32.5px; */
 }
 
 /* .services__btn::before {
