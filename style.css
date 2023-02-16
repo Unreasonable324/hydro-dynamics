@@ -106,7 +106,7 @@ a {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  font-family: ‘Muller’;
+  font-family: Muller;
 
 }
 
@@ -1218,7 +1218,7 @@ a {
     left: -9%;
   }
 
-  .footer iframe {
+  .footer .map iframe {
     width: 50%;
 
   }
@@ -1826,7 +1826,11 @@ a {
   .sity-item a:nth-child(2) {
     width: calc(100% - 97px);
   }
-
+  .mapMobile {
+ 
+    padding: 0px;
+   
+}
   /* .orderWork-item {
 
     height: 280px;
