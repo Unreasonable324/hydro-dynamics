@@ -1952,6 +1952,9 @@ a {
     height: 50px;
 
   }
+  .main-window-text p:nth-last-child(1) {
+   text-align: left;
+}
 }
 
 @media(max-width:480px) {
