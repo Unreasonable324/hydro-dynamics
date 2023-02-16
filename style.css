@@ -2107,13 +2107,13 @@ a {
 
   .sity-name p {
     font-size: 14px;
+  }.telephone {
+    display: none;
   }
 }
 
 @media(max-width:428px) {
-  .telephone {
-    display: none;
-  }
+  
 
   .mobileWoman {
     content: '';
