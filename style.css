@@ -1038,7 +1038,7 @@ a {
   padding-left: 30px;
 }
 
-.wrapper-call-aplication button {
+.wrapper-call-aplication input[type=submit] {
   font-family: 'Muller';
   font-style: normal;
   font-weight: 500;
@@ -1056,7 +1056,7 @@ a {
   transition: all .5s ease;
 }
 
-.wrapper-call-aplication button:hover {
+.wrapper-call-aplication input[type=submit]:hover {
   transition: all .5s ease;
   border-bottom: #0B65B7 0px solid;
   box-shadow: 5px 5px 30px rgba(57, 154, 244, 0.8);

@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="form.js"></script>
     <title>ГИДРОДИНАМИКА</title>
 </head>
 
@@ -320,7 +322,7 @@
                 <div class="img-accriditation">
                     <img src="img/accriditationImg.png" alt="">
                 </div>
-              
+
             </div>
         </div>
     </section>
@@ -330,9 +332,12 @@
                 <div class="wrapper-call-aplication">
                     <h2>Оставьте заявку </h2>
                     <p>Мы перезвоним Вам в течении 15&nbsp;минут</p>
-                    <input type="text" placeholder="Ф.И.О">
-                    <input type="text" placeholder="Номер телефона">
-                    <button>Отправить заявку</button>
+                    <form action="">
+                         <input type="text" placeholder="Ф.И.О" name="name">
+                        <input type="text" placeholder="Номер телефона" class="tel" name="tel">
+                        <input type="submit" value="Отправить заявку">
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -368,6 +373,7 @@
 
     </footer>
     <script src="https://kit.fontawesome.com/ef7b626c97.js" crossorigin="anonymous"></script>
+    
     <script src="app.js"></script>
 </body>
 
