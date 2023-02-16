@@ -775,7 +775,7 @@ a {
 }
 
 .orderWork-item:nth-child(1) .orderWortTitle {
-  /* width: 65%; */
+  width: 65%;
 }
 
 .application {
@@ -1217,6 +1217,11 @@ a {
 
     left: -9%;
   }
+
+  .footer iframe {
+    width: 50%;
+
+  }
 }
 
 @media(max-width:1440px) {
@@ -1283,6 +1288,11 @@ a {
 
   .image-oCompanii {
     right: -693px;
+  }
+
+  .call-aplication .container {
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -1905,6 +1915,7 @@ a {
     justify-content: center;
     text-align: center;
   }
+
   .orderWork-item::before {
     content: '';
     display: block;
@@ -1917,22 +1928,27 @@ a {
     border-radius: 0px 0px 41.9713px 41.9713px;
     transform: rotate(-180deg);
   }
+
   .orderWork-item:nth-last-child(1) {
-   
+
     margin-bottom: 0px;
   }
+
   .orderWork-item:nth-child(1) {
-   
+
     margin-bottom: 67px;
   }
+
   .orderWortTitle {
-   
+
     font-weight: 600;
-   
-}
-.wrapper-orderWork-items {
-  padding: 0 10px;
-}
+
+  }
+
+  .wrapper-orderWork-items {
+    padding: 0 10px;
+  }
+
   .ordeWorkNumber {
     position: absolute;
     transform: translate(-50%, 0%);
@@ -1952,9 +1968,10 @@ a {
     height: 50px;
 
   }
+
   .main-window-text p:nth-last-child(1) {
-   text-align: left;
-}
+    text-align: left;
+  }
 }
 
 @media(max-width:480px) {
@@ -1978,7 +1995,7 @@ a {
 
   .wrapper-orderWork h2 {
     font-size: 35px;
-}
+  }
 
   .bgitem1 {
     display: none;
@@ -1987,31 +2004,38 @@ a {
   .wrapper-services-item p {
     justify-content: center;
   }
-  .advantages__text  {
-  height: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  }
+
   .advantages__text {
-   
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .advantages__text {
+
     border-radius: 50px 0px 50px 50px;
-   
-}
-.advantages__text p {
-  width: 70%;
-  font-size: 16px;
-}
-.advantages__item, .advantages__text {
-  height: auto;
-}
-.advantages__icon {
-  height: 90px;
-  width: 90px;
-}
-.advantages__icon img {
-  height: auto;
-  width: 70%;
-}
+
+  }
+
+  .advantages__text p {
+    width: 70%;
+    font-size: 16px;
+  }
+
+  .advantages__item,
+  .advantages__text {
+    height: auto;
+  }
+
+  .advantages__icon {
+    height: 90px;
+    width: 90px;
+  }
+
+  .advantages__icon img {
+    height: auto;
+    width: 70%;
+  }
 }
 
 @media(max-width:430px) {
@@ -2023,7 +2047,7 @@ a {
     font-size: 26px;
   }
 
- 
+
 
   .wrapper-services-item p {
 
@@ -2101,10 +2125,12 @@ a {
     line-height: normal;
 
   }
+
   .orderWortTitle {
-    
+
     font-size: 16px;
-}
+  }
+
   /* .orderWork-item {
     height: auto;
     padding: 10px;
